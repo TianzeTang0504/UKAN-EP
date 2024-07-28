@@ -8,7 +8,7 @@ Brats 2024 Task 1 contains 1350 brain MRI nii files. All BraTS mpMRI scans are a
 All the imaging datasets have been annotated manually, by one to four raters, following the same annotation protocol, and their annotations were approved by experienced neuroradiologists. Annotations comprise the enhancing tissue (ET — label 3), the surrounding non-enhancing FLAIR hyperintensity (SNFH) — label 2), the non-enhancing tumor core (NETC — label 1), and the resection cavity (RC - label 4) as described in the latest BraTS summarizing paper, except that the resection cavity has been incorporated subsequent to the paper's release.
 
 Image example:
-
+![Example](https://github.com/TianzeTang0504/brats24/blob/main/pngs/datanii.png)
 
 All images are organized into separate folders like thie:
 

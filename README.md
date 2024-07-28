@@ -47,6 +47,10 @@ You can download all images from ![Brats 2024 website](https://www.synapse.org/S
 
 ## Data pre-processing
 
+## Metrics
+
 ## Models
 
 ## Results
+
+## TODO List

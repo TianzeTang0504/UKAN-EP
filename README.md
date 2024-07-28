@@ -12,6 +12,7 @@ Image example:
 ![](https://github.com/TianzeTang0504/brats24/blob/main/pngs/datanii.png)
 
 All images are organized into separate folders like thie:
+
 .
 
 ├── BraTS-GLI-00000-000

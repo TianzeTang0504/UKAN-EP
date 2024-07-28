@@ -13,7 +13,6 @@ Image example:
 
 All images are organized into separate folders like thie:
 
-![](https://github.com/TianzeTang0504/brats24/blob/main/pngs/file.png)
 
 You can download all images from ![Brats 2024 website](https://www.synapse.org/Synapse:syn53708249/wiki/627500) which is almost 70GB.
 

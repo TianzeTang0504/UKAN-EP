@@ -12,7 +12,21 @@ Image example:
 ![](https://github.com/TianzeTang0504/brats24/blob/main/pngs/datanii.png)
 
 All images are organized into separate folders like thie:
-
+.
+├── BraTS-GLI-00000-000
+│   ├── BraTS-GLI-00000-000-seg.nii.gz
+│   ├── BraTS-GLI-00000-000-t1c.nii.gz
+│   ├── BraTS-GLI-00000-000-t1n.nii.gz
+│   ├── BraTS-GLI-00000-000-t2f.nii.gz
+│   └── BraTS-GLI-00000-000-t2w.nii.gz
+├── BraTS-GLI-00001-000
+│   ├── BraTS-GLI-00001-000-seg.nii.gz
+│   ├── BraTS-GLI-00001-000-t1c.nii.gz
+│   ├── BraTS-GLI-00001-000-t1n.nii.gz
+│   ├── BraTS-GLI-00001-000-t2f.nii.gz
+│   └── BraTS-GLI-00001-000-t2w.nii.gz
+├── BraTS-GLI-00002-000
+...
 
 You can download all images from ![Brats 2024 website](https://www.synapse.org/Synapse:syn53708249/wiki/627500) which is almost 70GB.
 

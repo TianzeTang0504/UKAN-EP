@@ -47,7 +47,7 @@ You can download all images from [Brats 2024 website](https://www.synapse.org/Sy
 
 ## Data pre-processing
 
-We firstly combine the 4 kinds of MRI images into a single 4 channels image which size is 4\*218\*182\*182 and then normalize none-background area into 0-1. We make these combined images into h5 file and using txt file to record names of these h5 files. This is a really efficient way to organize dataset. You can find these parts in ./pre_processing.
+We firstly combine the 4 kinds of MRI images into a single 4 channels image which size is 4\*218\*182\*182 and then normalize none-background area into 0-1. We make these combined images into h5 file and using txt file to record names of these h5 files. This is a really efficient way to organize dataset. You can find these parts in ./pre_processing. This idea and code are from [icerain-alt](https://github.com/icerain-alt/brats-unet).
 
 Before training, we do some regular data augmentation like adding noise, random flip and so on.
 
@@ -61,7 +61,7 @@ We use Soft Dice and CE lose together, α is 0.5:
 
 ### Competetion Evaluating
 
-This competetion use lesion-wise dice and hausdorff distance to evaluate models. This method emphasizes accuracy at the overall lesion level. Violently punish lesions that fail to be detected and lesions that do not exist. You can find the code [here](https://github.com/rachitsaluja/BraTS-2023-Metrics/tree/main).
+This competetion use lesion-wise dice and hausdorff distance to evaluate models. This method emphasizes accuracy at the overall lesion level. Violently punish lesions that fail to be detected and lesions that do not exist. You can find the offical code [here](https://github.com/rachitsaluja/BraTS-2023-Metrics/tree/main). The label changes in 2024 so we need to make the code suitable for 2024 dataset. You can find this code in ./metrics.
 
 ![](https://github.com/TianzeTang0504/Brats-2024-Task1/blob/main/pngs/lesion.png)
 
@@ -69,13 +69,15 @@ This competetion use lesion-wise dice and hausdorff distance to evaluate models.
 
 ## Models
 
-### U-KAN
+### U-KAN ＆ U-KAN-SE
 
-### U-KAN-SE
+The UKAN model we use is from [CUHK-AIM-Group](https://github.com/CUHK-AIM-Group/U-KAN) work. Their original model is only for 2D images. We simply change all the blocks into 3D such as Conv2d-Conv3d. UKAN-SE simply adds a SE Block after every Conv block.
 
-### UNET
+![]()
 
-### Attention-UNET
+### UNET ＆ Attention-UNET
+
+The model we use is also from [icerain-alt](https://github.com/icerain-alt/brats-unet) work.
 
 ### Swin-UNETR
 

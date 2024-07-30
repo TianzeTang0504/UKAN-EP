@@ -73,7 +73,7 @@ This competetion use lesion-wise dice and hausdorff distance to evaluate models.
 
 The UKAN model we use is from [CUHK-AIM-Group](https://github.com/CUHK-AIM-Group/U-KAN) work. Their original model is only for 2D images. We simply change all the blocks into 3D such as Conv2d-Conv3d. UKAN-SE simply adds a SE Block after every Conv block.
 
-![]()
+![](https://github.com/TianzeTang0504/Brats-2024-Task1/blob/main/pngs/ukan_structure.png)
 
 ### UNET ＆ Attention-UNET
 
@@ -81,6 +81,10 @@ The model we use is also from [icerain-alt](https://github.com/icerain-alt/brats
 
 ### Swin-UNETR
 
+Swin-UNETR is from [MONAI](https://github.com/Project-MONAI/MONAI/tree/dev).
+
 ## Results
 
 ## TODO List
+
+- Add nnunet

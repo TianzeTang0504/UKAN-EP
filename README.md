@@ -1,4 +1,4 @@
-# Brats 2024 Task 1
+# Brats 2024 Task 1 Using UKAN and Other Models
 Code for Brats2024 Task 1: Segmentation - Adult Glioma Post Treatment
 This repository contains a complete pipeline from data pre-processing to model validation using Brats 2024 Task 1 data.
 

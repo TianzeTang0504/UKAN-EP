@@ -47,9 +47,27 @@ You can download all images from ![Brats 2024 website](https://www.synapse.org/S
 
 ## Data pre-processing
 
+We firstly combine the 4 kinds of MRI images into a single 4 channels image which size is 4\*218\*182\*182 and then normalize none-background area into 0-1. We make these combined images into h5 file and using txt file to record names of these h5 files. This is a really efficient way to organize dataset. You can find these parts in ./pre_processing.
+
+Before training, we do some regular data augmentation like adding noise, random flip and so on.
+
 ## Metrics
 
+### Loss Function
+
+### Competetion Evaluating
+
 ## Models
+
+### U-KAN
+
+### U-KAN-SE
+
+### UNET
+
+### Attention-UNET
+
+### Swin-UNETR
 
 ## Results
 

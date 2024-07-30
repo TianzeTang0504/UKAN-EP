@@ -11,7 +11,7 @@ Image example:
 
 ![](https://github.com/TianzeTang0504/brats24/blob/main/pngs/datanii.png)
 
-All images are organized into separate folders like thie:
+All images are organized into separate folders like this:
 
 .
 
@@ -54,6 +54,10 @@ Before training, we do some regular data augmentation like adding noise, random 
 ## Metrics
 
 ### Loss Function
+
+We use Soft Dice and CE lose together, α is 0.5:
+
+![]()
 
 ### Competetion Evaluating
 

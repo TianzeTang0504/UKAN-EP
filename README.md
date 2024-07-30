@@ -57,7 +57,7 @@ Before training, we do some regular data augmentation like adding noise, random 
 
 We use Soft Dice and CE lose together, α is 0.5:
 
-![]()
+![](https://github.com/TianzeTang0504/Brats-2024-Task1/blob/main/pngs/loss.png)
 
 ### Competetion Evaluating
 

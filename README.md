@@ -43,7 +43,7 @@ All images are organized into separate folders like this:
 
 ...
 
-You can download all images from ![Brats 2024 website](https://www.synapse.org/Synapse:syn53708249/wiki/627500) which is almost 70GB.
+You can download all images from [Brats 2024 website](https://www.synapse.org/Synapse:syn53708249/wiki/627500) which is almost 70GB.
 
 ## Data pre-processing
 
@@ -61,7 +61,7 @@ We use Soft Dice and CE lose together, α is 0.5:
 
 ### Competetion Evaluating
 
-This competetion use lesion-wise dice and hausdorff distance to evaluate models. This method emphasizes accuracy at the overall lesion level. Violently punish lesions that fail to be detected and lesions that do not exist. You can find the code ![here](https://github.com/rachitsaluja/BraTS-2023-Metrics/tree/main).
+This competetion use lesion-wise dice and hausdorff distance to evaluate models. This method emphasizes accuracy at the overall lesion level. Violently punish lesions that fail to be detected and lesions that do not exist. You can find the code [here](https://github.com/rachitsaluja/BraTS-2023-Metrics/tree/main).
 
 ![](https://github.com/TianzeTang0504/Brats-2024-Task1/blob/main/pngs/lesion.png)
 

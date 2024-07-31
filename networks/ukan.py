@@ -10,7 +10,7 @@ from torchvision.utils import save_image
 import torch.nn.functional as F
 import os
 import matplotlib.pyplot as plt
-from utils import *
+from kan.utils import *
 from einops import rearrange
 
 import timm
@@ -19,7 +19,7 @@ from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 import math
 
 
-from kan import KANLinear, KAN
+from kan.kan import KANLinear, KAN
 from torch.nn import init
 
 

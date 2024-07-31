@@ -85,6 +85,8 @@ Swin-UNETR is from [MONAI](https://github.com/Project-MONAI/MONAI/tree/dev).
 
 ## Results
 
+KAN based model have really good efficiency and relatively good scores.
+
 ![]()
 
 ## TODO List

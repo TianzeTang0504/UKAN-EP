@@ -96,3 +96,5 @@ KAN based model have really good efficiency and relatively good scores.
 ## TODO List
 
 - Add nnunet
+- Add UKAN transformer
+

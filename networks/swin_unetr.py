@@ -28,7 +28,6 @@ from monai.networks.layers import DropPath, trunc_normal_
 from monai.utils import ensure_tuple_rep, look_up_option, optional_import
 from monai.utils.deprecate_utils import deprecated_arg
 
-from kan import KANLinear, KAN
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 

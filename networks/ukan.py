@@ -10,7 +10,7 @@ from torchvision.utils import save_image
 import torch.nn.functional as F
 import os
 import matplotlib.pyplot as plt
-from kan.utils import *
+from kannet import utils
 from einops import rearrange
 
 import timm

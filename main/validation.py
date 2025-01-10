@@ -6,14 +6,14 @@ import random
 import numpy as np
 import json
 import torch.nn.functional as F
-import results.unet
-from results.aunet import AttentionUNet
-import results.ukan
-import results.ecapan
-import results.ecapancnn
-import results.ukanpan
-import results.ukaneca
-from results.swin_unetr import SwinUNETR
+import networks.unet
+from networks.aunet import AttentionUNet
+import networks.ukan
+import networks.ecapan
+import networks.ecapancnn
+import networks.ukanpan
+import networks.ukaneca
+from networks.swin_unetr import SwinUNETR
 
 import pandas as pd
 import torch

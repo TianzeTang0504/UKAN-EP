@@ -2,11 +2,8 @@ import numpy as np # linear algebra
 
 import os
 import h5py
-import ukan
-from unet import UKAN
-from aunet import AttentionUNet
 from scipy.ndimage import rotate
-import ecapan
+
 import gc
 import random
 import matplotlib.pyplot as plt
@@ -21,6 +18,15 @@ from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 
 from einops import rearrange
+
+import networks.unet
+from networks.aunet import AttentionUNet
+import networks.ukan
+import networks.ecapan
+import networks.ecapancnn
+import networks.ukanpan
+import networks.ukaneca
+from networks.swin_unetr import SwinUNETR
 
 class Config:
     def __init__(self):

@@ -59,14 +59,6 @@ We use Soft Dice and CE lose together, α is dynamic:
 
 ![](https://github.com/TianzeTang0504/Brats-2024-Task1/blob/main/pngs/loss.png)
 
-### Competetion Evaluating
-
-This competetion use lesion-wise dice and hausdorff distance to evaluate models. This method emphasizes accuracy at the overall lesion level. Violently punish lesions that fail to be detected and lesions that do not exist. You can find the offical code [here](https://github.com/rachitsaluja/BraTS-2024-Metrics). You can find this code in ./metrics.
-
-![](https://github.com/TianzeTang0504/Brats-2024-Task1/blob/main/pngs/lesion.png)
-
-*The TP, FN and FP here means lesions, not voxels.
-
 ## Models
 
 ### U-KAN ＆ U-KAN-EP

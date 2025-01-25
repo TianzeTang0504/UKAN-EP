@@ -55,7 +55,7 @@ Before training, we do some regular data augmentation like adding noise, random 
 
 ### Loss Function
 
-We use Soft Dice and CE lose together, α is 0.5:
+We use Soft Dice and CE lose together, α is dynamic:
 
 ![](https://github.com/TianzeTang0504/Brats-2024-Task1/blob/main/pngs/loss.png)
 
@@ -92,9 +92,3 @@ KAN based model have really good efficiency and relatively good scores.
 ![](https://github.com/TianzeTang0504/Brats_2024-3D_Brain_MRI_Segmentation-UKAN/blob/main/pngs/dice.png)
 
 ![](https://github.com/TianzeTang0504/Brats_2024-3D_Brain_MRI_Segmentation-UKAN/blob/main/pngs/hd95.png)
-
-## TODO List
-
-- Add nnunet
-- Add UKAN transformer
-

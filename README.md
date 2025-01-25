@@ -69,9 +69,9 @@ This competetion use lesion-wise dice and hausdorff distance to evaluate models.
 
 ## Models
 
-### U-KAN ＆ U-KAN-SE
+### U-KAN ＆ U-KAN-EP
 
-The UKAN model we use is from [CUHK-AIM-Group](https://github.com/CUHK-AIM-Group/U-KAN) work. Their original model is only for 2D images. We simply change all the blocks into 3D such as Conv2d-Conv3d. UKAN-SE simply adds a SE Block after every Conv block.
+The UKAN model we use is from [CUHK-AIM-Group](https://github.com/CUHK-AIM-Group/U-KAN) work. Their original model is only for 2D images. We change all the blocks into 3D such as Conv2d-Conv3d. UKAN-EP is based on that.
 
 ![](https://github.com/TianzeTang0504/Brats-2024-Task1/blob/main/pngs/ukan_structure.png)
 

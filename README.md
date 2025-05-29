@@ -1,6 +1,7 @@
 # Brats 2024 Task 1 Using UKAN and Other Models
 Code for Brats2024 Task 1: Segmentation - Adult Glioma Post Treatment
 This repository contains a complete pipeline from data pre-processing to model validation using Brats 2024 Task 1 data.
+Arxiv Link: https://arxiv.org/abs/2408.00273
 
 ## Data overview
 Brats 2024 Task 1 contains 1350 brain MRI nii files. All BraTS mpMRI scans are available as NIfTI files (.nii.gz) and describe a) native (T1) and b) post-contrast T1-weighted (T1Gd), c) T2-weighted (T2), and d) T2 Fluid Attenuated Inversion Recovery (FLAIR) volumes, and were acquired with different clinical protocols and various scanners from multiple data contributing institutions. The ground truth data was created after preprocessing, including co-registration to the same anatomical template, interpolation to the same resolution (1 mm3), and skull stripping.

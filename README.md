@@ -83,6 +83,6 @@ KAN based model have really good efficiency and relatively good scores.
 
 ![](https://github.com/TianzeTang0504/Brats_2024-3D_Brain_MRI_Segmentation-UKAN/blob/main/pngs/time.png)
 
-![](https://github.com/TianzeTang0504/Brats_2024-3D_Brain_MRI_Segmentation-UKAN/blob/main/pngs/dice.png)
+![](https://github.com/TianzeTang0504/Brats_2024-3D_Brain_MRI_Segmentation-UKAN/blob/main/pngs/1.png)
 
-![](https://github.com/TianzeTang0504/Brats_2024-3D_Brain_MRI_Segmentation-UKAN/blob/main/pngs/hd95.png)
+![](https://github.com/TianzeTang0504/Brats_2024-3D_Brain_MRI_Segmentation-UKAN/blob/main/pngs/2.png)

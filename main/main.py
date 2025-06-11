@@ -22,7 +22,7 @@ from einops import rearrange
 import networks.unet
 from networks.aunet import AttentionUNet
 import networks.ukan
-import networks.ecapan
+import networks.ukanep
 import networks.ecapancnn
 import networks.ukanpan
 import networks.ukaneca
@@ -519,7 +519,7 @@ def main_train(args):
     # # dice4(RC): label4
     # # dice5(ET+NETC):label1+label3
     # # dice6(ET+SNFH+NETC):label1+label2+label3
-    model = ecapan.UKAN(5)
+    model = ukanep.UKAN(5)
     '''
     model = ukanSE(5)
     model = UNet(4, 5)
